@@ -4,6 +4,8 @@ Uses the grouplens 1 million data set [contains 1,000,209 anonymous ratings of a
 made by 6,040 MovieLens users]
 https://grouplens.org/datasets/movielens/
 
+** Uses Item-based collaborative filtering algorithm **
+
 To run the recommender on a Spark cluster on AWS EMR:
 * package the jar using sbt
 * upload the jar and data set to your AWS s3 bucket
